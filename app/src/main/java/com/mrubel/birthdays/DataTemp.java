@@ -1,8 +1,6 @@
 package com.mrubel.birthdays;
 
-/**
- * Created by mosharrofrubel on 12/25/16.
- */
+
 
 public class DataTemp {
 

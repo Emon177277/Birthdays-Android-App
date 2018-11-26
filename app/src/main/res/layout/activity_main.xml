@@ -26,6 +26,7 @@
         android:layout_marginBottom="20dp"
         android:background="#f9f9f9"
         android:hint="Write note here . . ."
+        android:gravity="top|left"
         android:paddingLeft="8dp"
         android:singleLine="false" />
 

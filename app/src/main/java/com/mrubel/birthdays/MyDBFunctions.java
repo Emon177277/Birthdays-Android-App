@@ -7,9 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-/**
- * Created by mosharrofrubel on 12/25/16.
- */
+
 
 public class MyDBFunctions extends SQLiteOpenHelper {
 
@@ -72,7 +70,7 @@ public class MyDBFunctions extends SQLiteOpenHelper {
         if(c.moveToFirst()){
             int counter = 0 ;
             do {
-                recvied_data[counter] = c.getString(c.getColumnIndex(TAB_NAME+"")) +"\nBirthday: "+
+                recvied_data[counter] = c.getString(c.getColumnIndex(TAB_NAME+"")) +"\n"+
                 c.getString(c.getColumnIndex(TAB_DAYS+""));
                 counter = counter+1;
 
