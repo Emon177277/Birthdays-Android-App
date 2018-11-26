@@ -7,25 +7,27 @@
     android:background="#fff"
      >
 
+
     <EditText
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_margin="20dp"
-        android:hint="Enter friend's name"
+        android:hint="Note Title"
         android:paddingLeft="8dp"
         android:background="#f9f9f9"/>
 
     <EditText
         android:id="@+id/bday"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="223dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:background="#f9f9f9"
+        android:hint="Write note here . . ."
         android:paddingLeft="8dp"
-        android:hint="Enter his/her birthday"/>
+        android:singleLine="false" />
 
     <Button
         android:id="@+id/save"
